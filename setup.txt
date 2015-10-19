@@ -1,0 +1,18 @@
+step-1 : install rabbitmq broker 
+
+- Download rabbitmq-broker from https://www.rabbitmq.com/releases/rabbitmq-server/v3.5.6/rabbitmq-server_3.5.6-1_all.deb link.
+- To install .deb package. in command line enter sudo dpkg -i rabbitmq-server_3.5.6-1_all.deb
+
+step-2 : Install Gui managment for rabbitmq
+- sudo rabbitmq-plugins enable rabbitmq_management
+
+step-3 : Install librabbitmq-dev
+- sudo apt-get install librabbitmq-dev
+
+done, To check 127.0.0.1/15672
+
+
+
+
+
+
